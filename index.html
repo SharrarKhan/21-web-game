@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>21 Game</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="title" style="color: white; text-align: center;">21 Card Game</h1>
+    <p id="wonOrLostPTag" style="text-align: center;"></p>
+    <div id="bodyDiv">
+        <div id="startButtonDiv">
+            <button id="startGameButton">Start Game</button>
+        </div>
+        <div>
+            <p id="points1" style="display: inline-block;"></p>
+            <p id="points2" style="display: inline-block; position: absolute; margin-left: 99%"></p>
+        </div>
+        <div id="leftDiv"></div>
+        <div id="rightDiv"></div>
+    </div>
+    <div id="bottomDiv">
+        <button id="hitButton" disabled>Hit</button>
+        <button id="stayButton" disabled>Stay</button>
+    </div>
+</body>
+</html>

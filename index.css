@@ -1,0 +1,187 @@
+#startButtonDiv {
+    text-align: center;
+    margin-left: 10%;
+}
+
+body{
+    background-color: #008000;
+    height: 100%;
+    width: 100%;
+}
+
+#bodyDiv {
+    position: relative;
+    width: 90%;
+} 
+
+#points1 {
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+#points2 {
+    font-weight: bold;
+}
+
+#leftDiv {
+    position: absolute;
+    display: inline-bock;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 45%;
+    margin-left: 3%;
+}
+
+#rightDiv {
+    position: absolute;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 45%;
+    left: 65%;
+}
+
+#bottomDiv {
+    display: block;
+    position: relative;
+    top: 30%;
+    align-items: center;
+}
+
+#startGameButton {
+    /* position: relative;
+    left: 50%; */
+}
+
+#hitButton {
+    position: relative;
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 20%; 
+    height: 28%;
+    border-radius: 20%;
+    font-size: 150%;
+}
+
+#stayButton {
+    position: relative;
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 38%;
+    width: 20%; 
+    height: 48%;
+    border-radius: 20%;
+    font-size: 150%;
+}
+
+img {
+    display: inline-block;
+    height: 35%;
+    width: 27%;
+}
+
+@media screen and (min-width: 413px) and (max-width: 415px) {
+    
+    #startButtonDiv {
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    img {
+        display: inline-block;
+        height: 52%;
+        width: 42%;
+    }
+    #hitButton {
+        position: relative;
+        display: inline-block;
+        margin-top: 130%;
+        margin-left: 10%;
+        width: 20%; 
+        height: 28%;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+    
+    #stayButton {
+        position: relative;
+        display: inline-block;
+        margin-top: 130%;
+        margin-left: 38%;
+        width: 20%; 
+        height: 48%;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 376px) and (min-height: 666px) and (max-height: 668px){
+    
+    #startButtonDiv {
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    img {
+        display: inline-block;
+        height: 56%;
+        width: 46%;
+    }
+    #hitButton {
+        position: relative;
+        display: inline-block;
+        margin-top: 130%;
+        margin-left: 10%;
+        width: 20%; 
+        height: 28%;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+    
+    #stayButton {
+        position: relative;
+        display: inline-block;
+        margin-top: 130%;
+        margin-left: 38%;
+        width: 20%; 
+        height: 48%;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 376px) and (min-height: 811px) and (max-height: 813px) {
+    
+    #startButtonDiv {
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    img {
+        display: inline-block;
+        height: 56%;
+        width: 46%;
+    }
+    #hitButton {
+        position: relative;
+        display: inline-block;
+        margin-top: 160%;
+        margin-left: 10%;
+        width: 20%; 
+        height: 28%;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+    
+    #stayButton {
+        position: relative;
+        display: inline-block;
+        margin-top: 160%;
+        margin-left: 38%;
+        width: 20%; 
+        height: 48%;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+}
