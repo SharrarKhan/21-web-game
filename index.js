@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     let hit;
     let opponentCards;
     startGameButton.addEventListener("click", async () => {
-        bodyDiv.removeChild(startGameButton);
+        bodyDiv.removeChild(startButtonDiv);
         hitButton.disabled = false;
         stayButton.disabled = false;
         await shuffle(shuffleCards);
